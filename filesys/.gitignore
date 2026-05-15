@@ -1,0 +1,7 @@
+.vscode
+test_*
+fs
+*.o
+
+!test_*.cpp
+!test_*.fs

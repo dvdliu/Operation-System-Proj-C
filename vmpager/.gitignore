@@ -1,0 +1,13 @@
+# object files
+*.o
+
+# vscode config
+.vscode
+
+# debugging and cached tests
+*.dSYM
+*.DS_Store
+
+pager
+test_*
+!test_*.cpp
