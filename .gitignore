@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# compiled objects
+*.o
+*.out
+*.exe
+
+# logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Python (if any scripts exist)
+__pycache__/
+*.pyc
+
+# backup/temp files
+*~
+EOF
