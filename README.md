@@ -19,7 +19,7 @@ A mock operating system built in C++, implementing core OS internals from the gr
 
 ---
 
-## 🧵 `threadlib` — Custom Thread Library
+## `threadlib` — Custom Thread Library
 
 A user-space threading implementation that handles concurrent execution without relying on the OS's native thread support.
 
@@ -32,7 +32,7 @@ This module is the foundation the rest of the OS builds on — filesystem and pa
 
 ---
 
-## 🧠 `vmpager` — Virtual Memory Pager
+## `vmpager` — Virtual Memory Pager
 
 Implements virtual memory, translating between the address space a program sees and physical memory underneath.
 
@@ -45,7 +45,7 @@ This is the piece most directly tied to the "memory management" focus of the pro
 
 ---
 
-## 💾 `filesys` — Networked File System
+## `filesys` — Networked File System
 
 A filesystem implementation with network support, handling how data is organized, stored, and retrieved.
 
@@ -56,7 +56,7 @@ A filesystem implementation with network support, handling how data is organized
 
 ---
 
-## 🧪 `testapp` — Test Applications
+## `testapp` — Test Applications
 
 Sample programs used to exercise and validate the other three modules — spinning up threads, triggering page faults, and reading/writing through the filesystem to confirm everything behaves correctly together.
 
@@ -74,4 +74,4 @@ Each subdirectory (`threadlib/`, `vmpager/`, `filesys/`, `testapp/`) can typical
 
 ## Background
 
-This project began as a class operating systems assignment and was expanded afterward into a more complete systems exploration — going beyond the minimum requirements to dig deeper into how real OS components like schedulers, virtual memory managers, and filesystems fit together.
+This project began as a class operating systems assignment and was expanded afterward into a more complete systems exploration. My focus is going beyond the minimum requirements to dig deeper into how real OS components like schedulers, virtual memory managers, and filesystems fit together.
